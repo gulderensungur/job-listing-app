@@ -1,0 +1,79 @@
+.jobBoard {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 8px 15px -8px var(--desaturated-dark-cyan);
+  background-color: var(--light-grayish-cyan-filter-tablets);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 4px;
+  align-items: center;
+}
+.boardWrapper {
+  display: flex;
+}
+.imgWrapper {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  flex-shrink: 0;
+}
+.jobContent {
+  margin-left: 1rem;
+}
+
+.jobContent h3 {
+  color: var(--desaturated-dark-cyan);
+}
+
+.new {
+  margin-left: 8px;
+  text-transform: uppercase;
+  color: var(--light-grayish-cyan-background);
+  background-color: var(--desaturated-dark-cyan);
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 14px;
+}
+.featuredJob {
+  border-left: 4px solid var(--desaturated-dark-cyan);
+}
+.featured {
+  margin-left: 8px;
+  text-transform: uppercase;
+  color: var(--light-grayish-cyan-background);
+  background-color: var(--very-dark-grayish-cyan);
+  border-radius: 16px;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.jobContent h2 {
+  font-size: 20px;
+  cursor: pointer;
+}
+.jobContent h2:hover {
+  color: var(--desaturated-dark-cyan);
+}
+
+.jobContent p {
+  color: var(--dark-grayish-cyan);
+}
+
+.tags {
+  color: var(--desaturated-dark-cyan);
+  font-weight: 700;
+}
+.tag {
+  background-color: var(--desaturated-light-cyan);
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.tag:hover {
+  background-color: var(--desaturated-dark-cyan);
+  color: var(--light-grayish-cyan-filter-tablets);
+}
+.tag:not(:first-child) {
+  margin-left: 8px;
+}
